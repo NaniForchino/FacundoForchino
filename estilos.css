@@ -21,6 +21,7 @@ body{
     background-position: center;
 }
 
+
 .cabecera{
     padding-top: 200px;
     margin-bottom: 220px;
@@ -98,8 +99,6 @@ body{
 .subcategorias-menu-link:hover{
     background-color: rgb(185, 197, 197);
 }
-
-
 
 .foto{
     max-width: 250px;
