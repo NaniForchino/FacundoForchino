@@ -2,13 +2,14 @@
 body{
     /*background-image: url(fondo.jpg);*/
     color: black;
-    margin: 0;
+    margin:0%;
     background-color: rgba(194, 188, 166, 0.89);
+    font-family: 'Pridi', serif;
 }
 
 .contenido{
    /*background-color: grey;*/
-    margin: auto;
+    margin: 0;
     max-width: 100%;
 }
 
@@ -21,13 +22,20 @@ body{
 }
 
 .cabecera{
+    padding-top: 200px;
     margin-bottom: 220px;
     text-align: right;
     margin-right: 40px;
 }
 
+.frase1{
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
 .titulo-perfil{
-    padding-top: 90px;
     margin: auto;
     margin-bottom: 35px;
     font-size: 40px;
@@ -36,8 +44,8 @@ body{
 }
 
 .perfil{
-    margin-left: 70px;
-    margin-right: 50px;
+    margin: 30px;
+    padding: 70px;
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;  
@@ -49,8 +57,9 @@ body{
     text-align: justify;
 }
 
-.sticky{
-    position: sticky;
+.fixed{
+    position: fixed;
+    width: 100%;
     top: 0;
 }
 
@@ -95,7 +104,6 @@ body{
 .foto{
     max-width: 250px;
     max-height: 250px;
-    justify-content: center;
     border-radius: 350px;
     border: solid 2px lightseagreen;
 }
@@ -105,12 +113,6 @@ body{
     justify-content: center; 
 }
 
-.parrafo{
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-
-}
 
 .experiencia-titulo{
     max-width: 700px;
