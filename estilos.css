@@ -135,6 +135,10 @@ html{
     justify-content: center; 
 }
 
+.foto{
+    width: 100%;
+}
+
 .titulo-experiencia{
     margin-bottom: 80px;
     padding-top: 100px;
