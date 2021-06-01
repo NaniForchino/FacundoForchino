@@ -107,9 +107,9 @@ html{
 .frase1{
     text-align: center;
     font-style: italic;
-    font-size: 45px;
+    font-size: 25px;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 30%;
 }
 
 .titulo-perfil{
@@ -149,7 +149,7 @@ html{
     font-style: italic;
     font-size: 25px;
     padding-top: 20px;
-    padding-left: 50px;
+    padding-left: 10%;
 }
 
 
