@@ -112,6 +112,12 @@ html{
     padding-left: 30%;
 }
 
+@media (max-width: 767px) {
+    .cabecera {
+        padding-right: 10%;
+    }
+}
+
 .titulo-perfil{
     margin-bottom: 80px;
     padding-top: 100px;
@@ -168,17 +174,17 @@ html{
 
 .experiencia1{
     display: grid;
-    grid-template-columns: 20% 80%;   
+    grid-template-columns: 30% 70%;   
 }
 
 .experiencia2{
     display: grid;
-    grid-template-columns: 20% 80%;    
+    grid-template-columns: 30% 70%;    
 }
 
 .experiencia3{
     display: grid;
-    grid-template-columns: 20% 80%;    
+    grid-template-columns: 30% 70%;    
 }
 
 .titulo-formacion{
@@ -200,7 +206,7 @@ html{
 
 .contenido-formacion{
     display: grid;
-    grid-template-columns: 20% 80%;  
+    grid-template-columns: 30% 70%;  
 }
 
 
