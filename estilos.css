@@ -64,7 +64,7 @@ html{
 
 @media (max-width: 767px) {
     .categorias-menu {
-        display: block;
+        display: flex;
         text-align: left;
     }
 }
@@ -84,6 +84,7 @@ html{
 @media (max-width: 767px) {
     .subcategorias-menu_link {
         padding: 5px;
+        font-size: 15px;
     }
 }
 
